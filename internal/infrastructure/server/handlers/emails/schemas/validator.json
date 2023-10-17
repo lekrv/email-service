@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "from": { "type": "string" },
+        "to_email": { "type": "string" },
+        "subject": { "type": "string" },
+        "text": { "type": "string" }
+      },
+      "required": ["from", "to_email", "subject", "body"]
+    }
+  },
+  "required": ["data"]
+}
